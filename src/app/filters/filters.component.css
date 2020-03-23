@@ -1,0 +1,15 @@
+li{
+    list-style: none;
+    color: #A5A5A5;
+}
+a{
+    color: #A5A5A5!important;
+    display: inline-block;
+}
+.fa{
+    font-size: 13px!important;
+}
+
+.navbar{
+    box-shadow: #cecece 0px 0px 1px;
+}

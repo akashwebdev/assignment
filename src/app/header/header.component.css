@@ -1,0 +1,47 @@
+li{
+    list-style: none;
+    color: black;
+}
+a{
+    color: black!important;
+}
+
+.right{
+    text-align: right;
+}
+
+.btn{
+    background:#337AB7;
+    color: white;
+}
+
+#header{
+    box-shadow: #cecece 0px 0px 1px;
+}
+
+.nomargin{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.ulHeader{
+    margin-top: 10px;
+}
+
+.searchTextBox{
+    text-align: center;
+    font-size: 25px;
+    border: 0px;
+}
+
+.toggleSearch:before {
+    font-family: 'FontAwesome';
+    content: '\f002';
+    position: absolute;
+    z-index: 100;
+    left: 43%;
+    margin-top: 10px;
+}
+
+.fa-search{
+    cursor: pointer;
+}

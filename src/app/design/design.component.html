@@ -1,0 +1,14 @@
+<div class="rowSection" 
+infiniteScroll
+[infiniteScrollDistance]="2"
+[infiniteScrollThrottle]="50"
+(scrolled)="onScroll($event)">
+    <div *ngFor="let pic of pics" class="divImg">
+        <div class="fa fa-heart-o heart"></div>
+        <img src="{{pic.url}}" width="{{pic.width}}" height="{{pic.height}}" alt="loreum picsum loading..">
+    </div>
+</div>
+
+<div>
+	
+</div>

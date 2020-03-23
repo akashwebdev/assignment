@@ -1,0 +1,21 @@
+ul li{
+    list-style: none;
+    color: #9D9D9D;
+}
+
+ul{
+    padding-inline-start: 0px;
+}
+
+.mobile{
+    margin-top: 10px;
+}
+
+#footer{
+    margin-top: 80px;
+}
+
+.mobile span,
+.email span{
+    color: #808080;
+}
