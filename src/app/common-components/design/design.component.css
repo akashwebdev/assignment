@@ -1,0 +1,33 @@
+.gridContainer{
+    margin: 0px;
+    padding: 0px;
+}
+
+.grid{
+    position: relative;
+    display: grid;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    grid-template-rows: 200px;
+    grid-gap: 10px;
+    grid-auto-flow: dense;
+}
+
+.grid img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.grid > div{
+    background-color: #cecece;
+}
+
+.grid-span-3{
+    grid-row: span 3;
+    grid-column: span 3;
+}
+
+.grid-span-2{
+    grid-row: span 2;
+    grid-column: span 2;
+}

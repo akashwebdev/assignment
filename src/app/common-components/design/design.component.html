@@ -1,0 +1,11 @@
+<div class="gridContainer" 
+infiniteScroll
+[infiniteScrollDistance]="2"
+[infiniteScrollThrottle]="50"
+(scrolled)="onScroll($event)">
+    <div class="grid">
+        <div *ngFor="let pic of pics" [ngClass]="{'grid-span-3' : pic.class=='big','grid-span-2' : pic.class=='medium', 'grid-span' : pic.class=='normal'}">
+            <img src="{{pic.url}}">
+        </div>
+    </div>
+</div>

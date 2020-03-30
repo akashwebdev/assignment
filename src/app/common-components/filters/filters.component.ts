@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FiltersService } from '../filters.service';
+import { FiltersService } from '../../common-services/filters.service';
 import { Router } from '@angular/router';
 import { Event } from '@angular/router';
 
