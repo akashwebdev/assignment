@@ -12,7 +12,7 @@ export class PhotosService {
   constructor() { }
 
   firstPageLoad(){
-    for(let i=0;i<11;i++){
+    for(let i=1;i<=11;i++){
       let wd = 600;
       let cls = Math.random() > 0.8 ? 'big' : (Math.random() > 0.4 ? 'medium' : 'normal');
       let obj:elemType = {

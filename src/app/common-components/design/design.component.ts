@@ -25,12 +25,14 @@ export class DesignComponent implements OnInit {
   ngOnInit(): void {
     this.pics = this.photoServ.firstPageLoad();
     this.length = this.pics.length;
-    console.log(this.pics)
   }
 
   onScroll(ev){
-    if(this.pics.length < 40){
+
+    if(this.pics.length <= 44)
+    {
       let morePics = this.photoServ.firstPageLoad();
+      console.log(morePics);
       this.pics.push(morePics);
     }
   }
