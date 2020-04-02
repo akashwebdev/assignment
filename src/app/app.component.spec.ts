@@ -26,4 +26,19 @@ describe('AppComponent', () => {
     expect(app.title).toEqual('assignment');
   });
 
+  it('should be able to set the page name', ()=>{
+    const fixture = TestBed.createComponent(AppComponent);
+    const app = fixture.componentInstance;
+    let pageName:string = 'test';
+    expect(app.setPage(pageName)).toBeTrue();
+  });
+
+  it('should be able to get the page name', ()=>{
+    const fixture = TestBed.createComponent(AppComponent);
+    const app = fixture.componentInstance;
+    let pageName:string = 'test';
+    app.setPage(pageName);
+    expect(app.getPage()).toEqual('test');
+  });
+
 });

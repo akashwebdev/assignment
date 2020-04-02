@@ -28,11 +28,9 @@ export class DesignComponent implements OnInit {
   }
 
   onScroll(ev){
-
     if(this.pics.length <= 44)
     {
       let morePics = this.photoServ.firstPageLoad();
-      console.log(morePics);
       this.pics.push(morePics);
     }
   }

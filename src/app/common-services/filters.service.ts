@@ -1,5 +1,4 @@
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -12,7 +11,7 @@ export class FiltersService {
    */
   constructor() {}
 
-  filtersForPage(page){
+  filtersForPage(page:string){
     switch (page) {
       case '/design':
         return this.filters = ['Type Of Organization','Events','Trend','Great For'];

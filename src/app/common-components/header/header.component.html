@@ -1,5 +1,5 @@
 <div class="row" id="header">
-    <div class="row col-5 nomargin">
+    <div class="row col-lg-5 col-md-12 col-sm-12 nomargin">
       <ul class="navbar">
           <li class="nav-item active">
               <a class="nav-link" [routerLink]="['/design']">Design</a>
@@ -12,18 +12,18 @@
           </li>
       </ul>
     </div>
-    <div class="row col-4 nomargin">
+    <div class="row row col-md-4 col-sm-12 nomargin">
         <div class="col-12">
-        <img src="../assets/images/logo.png">
+            <img src="../assets/images/logo.png">
         </div>
     </div>
-    <div class="row col-3 nomargin">
+    <div class="row row col-md-3 col-sm-12 nomargin">
         <ul class="navbar row col-12">
-          <li class="col-8"></li>
-          <li class="nav-item active col-1" (click)="toggleDisplay()">
+          <li class="col-lg-5"></li>
+          <li class="nav-item active col-md-1 col-sm-2" (click)="toggleDisplay()">
               <i class="fa fa-search"></i>
           </li>
-          <li class="nav-item col-2 right">
+          <li class="nav-item col-md-4 col-sm-8 right">
               <button class="btn">Sign in</button>
           </li>   
       </ul>

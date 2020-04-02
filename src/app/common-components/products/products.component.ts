@@ -10,9 +10,8 @@ export class ProductsComponent implements OnInit {
 
   constructor(private router:Router) {
     localStorage.setItem('page',this.router.url);
-   }
-
-  ngOnInit(): void {
   }
+
+  ngOnInit(): void {}
 
 }

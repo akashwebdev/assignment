@@ -18,5 +18,6 @@ export class AppComponent {
 
   setPage(pageName:string){
     this.page = pageName
+    return true;
   }
 }

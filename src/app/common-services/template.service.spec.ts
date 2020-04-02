@@ -13,4 +13,15 @@ describe('TemplateService', () => {
   it('should be created', () => {
     expect(service).toBeTruthy();
   });
+
+  it('should return a html template', ()=>{
+    let stubElem = [{
+      url:"string",
+      width: 10,
+      height: 10
+    }];
+    let htmlElem = service.selectTemplate(stubElem);
+    expect(typeof htmlElem).toBeInstanceOf(String);
+  });
+
 });
