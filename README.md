@@ -1,6 +1,6 @@
 # Assignment
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.2.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.2. Updated 2 April 2020.
 
 ## Development server
 
